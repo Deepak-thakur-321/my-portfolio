@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body class="font-serif selection:bg-rose-400 selection:text-slate-900 bg-[rgb(33,36,40)] ">
+    <!-- Desktop Navbar -->
+    <nav class="bg-[rgb(33,36,40)] shadow-custom rounded-lg p-2 text-white">
+        <div class="container mx-auto px-16 py-1 flex items-center justify-between">
+            <a class="logo flex items-center" href="#home">
+                <img loading="lazy" class="" src="./images/logo-new.png" alt="logo-image" width="80" height="auto">
+                <h3 class="mx-6 hover:text-rose-700 transition ease-in-out duration-0 hover:duration-300 ">
+                    deepakthakur17756@gmail.com</h3>
+            </a>
+
+            <div>
+                <ul class="hidden lg:flex items-center gap-8 text-lg" id="desktop-nav">
+                    <li class="text-rose-700"><a href="#home">Home</a></li>
+                    <li><a class="hover:text-rose-700" href="#about">About</a></li>
+                    <li><a class="hover:text-rose-700" href="#education">Education</a></li>
+                    <li><a class="hover:text-rose-700" href="#Capabilities">Services</a></li>
+                    <li><a class="hover:text-rose-700" href="#skills">Skills</a></li>
+                    <li><a class="hover:text-rose-700" href="#projects">Projects</a></li>
+                    <li><a class="hover:text-rose-700" href="#contact">Contact</a></li>
+                    <a href="tel:+8375919101">
+                        <button class="px-5 py-2 shadow-custom text-rose-500 rounded-lg bg-[rgb(33,36,40)] "
+                            aria-label="Lets Work Together">Lets Work
+                            Together</button>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Mobile Nav -->
+            <div class="dropdown dropdown-end lg:hidden" id="menu-btn">
+                <label tabindex="0" class="btn btn-ghost">
+                    <i class="ri-menu-3-line text-2xl i-button"></i>
+                    <button id="close-btn" class="text-2xl self-end hidden">✖</button>
+                </label>
+                <div>
+                    <ul tabindex="0"
+                        class="dropdown-content menu text-lg  w-[320px] md:w-[720px] bg-white/10 backdrop-blur-lg mt-8 rounded-box shadow p-2 "
+                        id="mobile-nav">
+                        <li class="bg-gray-800 rounded mt-3"><a href="#home">Home</a></li>
+                        <li class="bg-gray-800 rounded mt-3"><a href="#about">About</a></li>
+                        <li class="bg-gray-800 rounded mt-3"><a href="#education">Education</a></li>
+                        <li class="bg-gray-800 rounded mt-3"><a href="#Capabilities">Services</a></li>
+                        <li class="bg-gray-800 rounded mt-3"><a href="#skills">Skills</a></li>
+                        <li class="bg-gray-800 rounded mt-3"><a href="#projects">Projects</a></li>
+                        <li class="bg-gray-800 rounded mt-3"><a href="#contact">Contact</a></li>
+                        <a href="tel:+8375919101">
+                            <button class="btn rounded-lg shadow bg-[rgb(33,36,40) mt-5 w-full">Lets Work
+                                Together</button>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!-- Mobile Nav End -->
+        </div>
+    </nav>
+
+    <main>
+        <!-- Top Container Part -->
+        <div class="container mx-auto w-full px-4" id="home">
+            <div class="grid grid-cols-12 gap-6 lg:p-10 items-stretch">
+                <!-- left Section -->
+
+                <div
+                    class="col-span-12 lg:col-span-6  lg:p-4 rounded-lg shadow-custom  mt-6 lg:mt-10  bg-[rgb(33,36,40)] transform transition-transform hover:-translate-y-2 flex flex-col p-5 left-section">
+                    <div class="">
+                        <i class="fa-solid fa-user bg-rose-700 rounded-full p-4"></i>
+                        <h4 class="text-2xl mt-4 text-gray-300">Welcome To My World</h4>
+                        <h1 class="text-4xl mt-4 text-gray-100">Hi, I’m <span class="text-rose-700">DEEPAK</span> a
+                            Professional Coder.</h1>
+                        <p class="mt-6 text-lg text-gray-400">I use animation to enhance user experience by
+                            simplifying interactions and guiding users seamlessly. I focus on purposeful motion, not
+                            just decorative effects.</p>
+                    </div>
+
+
+                    <!-- CV & BUttons -->
+                    <div class="p-8 shadow-custom mt-6 rounded-lg bg-[rgb(33,36,40)]">
+                        <p class="text-lg text-white">Download my curriculum vitae:</p>
+                        <div class="space-x-3 text-center lg:text-start">
+                            <a href="./images/Resume.pdf">
+                                <button
+                                    class="px-8 py-3 w-full lg:w-fit  shadow-custom mt-4 text-rose-500 rounded-lg bg-[rgb(33,36,40)] transform transition-transform hover:-translate-y-2"
+                                    aria-label="View My Resume">View My Resume</button>
+                            </a>
+
+                            <a href="tel:+8375919101">
+                                <button
+                                    class="px-10 py-3 w-full lg:w-fit shadow-custom mt-5  text-rose-500  rounded-lg bg-[rgb(33,36,40)] transform transition-transform hover:-translate-y-2"
+                                    aria-label="Lets Talk">Lets Talk</button>
+                            </a>
+
+                        </div>
+                    </div>
+                    <!-- CV & Buttons End -->
+                </div>
+                <!-- Left Section end  -->
+
+
+                <!-- Right Section Start -->
+
+                <div class="col-span-12 lg:col-span-6 flex items-center right-section ">
+                    <div
+                        class="w-full max-w[500px]  p-3 rounded-lg bg-[rgb(33,36,40)] shadow-custom mt-6 lg:mt-10 transform transition-transform hover:-translate-y-2  ">
+                        <img loading="lazy" class="rounded-lg w-full max-h-[450px] h-auto  object-cover object-top"
+                            src="./images/my-image.jpg" alt="Professional Coder Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Container Part End -->
+
+        <!-- About Section -->
+        <section>
+            <div class="container mx-auto px-4 mt-12" id="about">
+                <div class="grid grid-cols-12">
+                    <div class="col-span-12 text-center">
+                        <div class=" text-5xl text-white">About</div>
+                        <p class="text-rose-700 mt-4 text-xl">With every project, I aim for innovation and excellence.
+                        </p>
+                    </div>
+
+                    <div class="col-span-12 lg:col-span-6 mt-5">
+                        <h2 class="text-5xl mt-5 lg:text-8xl text-white p-3">From Passion to Profession: My
+                            Developer Journey.
+                        </h2>
+                    </div>
+
+
+                    <div class="col-span-12 lg:col-span-6 lg:mt-12 md:mt-3 ">
+                        <div class="p-3 text-xl md:text-justify text-white">
+                            <p>Hey,<span class="text-rose-400">I'm Deepak Thakur</span> a passionate full-stack Web
+                                Developer who loves bringing ideas to life with clean, interactive, and efficient
+                                designs. From writing my first <span class="text-rose-400">"Hello World"</span> to
+                                building dynamic and responsive web
+                                applications, my journey has been all about learning, experimenting, and growing.
+                            </p>
+
+                            <p class="mt-4">I believe that great user experiences come from a mix of creativity and
+                                logic, and the right tech stack makes it even better. That’s why I continuously
+                                explore
+                                new technologies like JavaScript, React, Tailwind CSS on the frontend and Node.js,
+                                Express.js, MongoDB, MySQL on the backend. Whether it's crafting smooth animations,
+                                optimizing database queries, or debugging complex logic, I enjoy the challenge that
+                                coding brings.
+                            </p>
+
+                            <p class="mt-4">I’m focusing on full-stack development, mastering React, Next.js,
+                                Tailwind
+                                CSS, Node.js, and MongoDB, while also diving deeper into backend optimizations,
+                                APIs,
+                                and database management. My goal is to create web experiences that are not just
+                                functional, but also intuitive, scalable, and engaging.
+                                Every line of code i write brings me closer to becoming the developer I aspire to
+                                be.
+                            </p>
+
+                            <p class="mt-5">Let’s build, learn, and innovate together! 🚀</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+
+        <!-- Education Section Start -->
+
+        <div class="container mx-auto px-4" id="education">
+            <div class="mt-12 lg:mt-20">
+                <div class="text-center">
+                    <h2 class="text-5xl tracking-wide text-gray-200">Education</h2>
+                    <p class="text-rose-700 mt-3 text-xl">My learning journey to become a Full-Stack Developer</p>
+                </div>
+
+                <!-- Cards Wrapper -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16">
+
+                    <!-- Card 1 -->
+                    <div class="bg-[rgb(33,36,40)] rounded-2xl shadow-custom p-5 flex flex-col justify-between ">
+                        <div>
+                            <div class="flex justify-between items-center mb-5">
+                                <h3 class="text-xl font-semibold text-white">SITHUB</h3>
+                                <span class="bg-gray-700 px-3 py-1 text-xs rounded-full text-white">2024</span>
+                            </div>
+                            <a href="https://www.sithub.in/course/Mern+Stack+.php" target="_blank">
+                                <h4 class="text-rose-400 text-lg hover:underline mb-4">MERN Stack Development Course
+                                </h4>
+                            </a>
+                            <ul class="list-disc pl-5 space-y-2 text-gray-300 mb-4">
+                                <li>Mastered MongoDB, Express.js, React.js, Node.js, REST APIs, authentication &
+                                    database management.</li>
+                                <li>Developed real-world projects focusing on problem-solving and full-stack
+                                    implementations.</li>
+                            </ul>
+                        </div>
+                        <p class="text-gray-400 text-sm italic mt-3">Duration: 8 Months</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class=" bg-[rgb(33,36,40)] rounded-2xl shadow-custom p-5 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-center mb-5">
+                                <h3 class="text-xl font-semibold text-white">Sheryians Coding School</h3>
+                                <span class="bg-gray-700 px-3 py-1 text-xs rounded-full text-white">2025 -
+                                    Present</span>
+                            </div>
+                            <a href="https://www.sheryians.com/courses/courses-details/Front-End%20Domination:%20Create%20Anything%20with%20Code"
+                                target="_blank">
+                                <h4 class="text-rose-400 text-lg hover:underline mb-4">Frontend Domination Course
+                                </h4>
+                            </a>
+                            <ul class="list-disc pl-5 space-y-2 text-gray-300 mb-4">
+                                <li>Focusing on React, Tailwind CSS, GSAP & modern UI/UX practices.</li>
+                                <li>Specialized in animations, performance optimization & responsive design
+                                    techniques.
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="text-gray-400 text-sm italic mt-3">Duration: 3 Months (Ongoing)</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-[rgb(33,36,40)] rounded-2xl shadow-custom p-5 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-center mb-5">
+                                <h3 class="text-xl font-semibold text-white">YouTube / Self-Learning</h3>
+                                <span class="bg-gray-700 px-3 py-1 text-xs rounded-full text-white">Ongoing</span>
+                            </div>
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <h4 class="text-rose-400 text-lg hover:underline mb-4">Full-Stack Practice &
+                                    Projects
+                                </h4>
+                            </a>
+                            <ul class="list-disc pl-5 space-y-2 text-gray-300 mb-4">
+                                <li>Practiced real-world projects using HTML, CSS, JavaScript, Node.js, and MongoDB.
+                                </li>
+                                <li>Completed websites to gain practical coding experience.</li>
+                        </div>
+                        <p class="text-gray-400 text-sm italic mt-3">Duration: Self-paced</p>
+                    </div>
+
+
+                    <!-- Card 4 -->
+                    <div class="bg-[rgb(33,36,40)] rounded-2xl shadow-custom p-5 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-center mb-5">
+                                <h3 class="text-xl font-semibold text-white">Graduation (B.A.)</h3>
+                                <span class="bg-gray-700 px-3 py-1 text-xs rounded-full text-white">2024</span>
+                            </div>
+                            <a href="https://www.ignou.ac.in/" target="_blank">
+                                <h4 class="text-rose-400 text-lg hover:underline mb-4">Bachelor of Arts</h4>
+                            </a>
+                            <ul class="list-disc pl-5 space-y-2 text-gray-300 mb-4">
+                                <li>Graduated from IGNOU University with a focus on practical knowledge and
+                                    independent
+                                    learning.</li>
+                                <li>Completed academic projects and developed strong analytical and problem-solving
+                                    abilities.</li>
+                            </ul>
+                        </div>
+                        <p class="text-gray-400 text-sm italic mt-3">Duration: 3 Years</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class=" bg-[rgb(33,36,40)] rounded-2xl shadow-custom p-5 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-center mb-5">
+                                <h3 class="text-xl font-semibold text-white">Digital Marketing</h3>
+                                <span class="bg-gray-700 px-3 py-1 text-xs rounded-full text-white">2023</span>
+                            </div>
+                            <a href="https://translationindia.com/" target="_blank">
+                                <h4 class="text-rose-400 text-lg hover:underline mb-4">Internship & Full-Time
+                                    Experience
+                                    (6 Months)</h4>
+                            </a>
+                            <ul class="list-disc pl-5 space-y-2 text-gray-300 mb-4">
+                                <li>Completed a 3-month internship focusing on SEO, social media marketing, and
+                                    content
+                                    creation.</li>
+                                <li>Handled real client projects to improve brand visibility and online presence
+                                    using
+                                    organic and paid strategies.</li>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="text-gray-400 text-sm italic mt-3">Duration: 6 Months (3 Months Internship + 3
+                            Months
+                            Job)</p>
+                    </div>
+
+                </div>
+                <!-- Cards Wrapper End -->
+            </div>
+        </div>
+        <!-- Education Section End Here -->
+
+
+        <!-- Skills -->
+        <div class="container mx-auto px-4" id="skills">
+            <div class="grid grid-cols-12 gap-6 mt-20 lg:p-12 text-white">
+                <div class="col-span-12">
+                    <div class="text-center">
+                        <h4 class="text-5xl text-white">My Skills</h4>
+                        <p class="text-xl lg:text-center mt-4 text-rose-700">We craft stunning web projects that
+                            inspire and engage your audience.</p>
+                    </div>
+                </div>
+
+                <!-- 1st -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2 group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4 " src="./images/HTML5.svg" alt="HTML-image">
+                    <h6 class="mt-3 mb-2">97%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-2 py-1 rounded-md">
+                        HTML
+                    </p>
+                </div>
+
+                <!-- 2nd -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2 group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4" src="./images/Css-image.svg" alt="Css-image">
+                    <h6 class="mt-3 mb-2">89%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-2 py-1 rounded-md">
+                        CSS
+                    </p>
+                </div>
+
+                <!-- 3rd -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2 group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4" src="./images/Bootstrap (1).svg" alt="Bootstrap-image">
+                    <h6 class="mt-3 mb-2">87%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-2 py-1 rounded-md">
+                        Bootstrap
+                    </p>
+                </div>
+
+                <!-- 4th -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2  group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4" src="./images/Tailwind CSS.svg" alt="Tailwind-image">
+                    <h6 class="mt-3 mb-2">83%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-2 py-1 rounded-md">
+                        Tailwind
+                    </p>
+                </div>
+
+                <!-- 5th -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2  group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4" src="./images/JavaScript.svg" alt="JavaScript-image">
+                    <h6 class="mt-3 mb-2">68%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-10 py-1 rounded-md">
+                        Javascript
+                    </p>
+                </div>
+
+                <!-- 6th -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2 group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4" src="./images/React.svg" alt="React-image">
+                    <h6 class="mt-3 mb-2">76%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-4 py-1 rounded-md">
+                        React
+                    </p>
+                </div>
+
+                <!-- 7th -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2 group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4" src="./images/Node.js.svg" alt="NodeJs-image">
+                    <h6 class="mt-3 mb-2">88%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-2 py-1 rounded-md">
+                        Node Js
+                    </p>
+                </div>
+
+                <!-- 8th -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2 group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4" src="./images/Express.svg" alt="ExpressJs-image">
+                    <h6 class="mt-3 mb-2">84%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-2 py-1 rounded-md">
+                        Express Js
+                    </p>
+                </div>
+
+                <!-- 9th -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2 group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4" src="./images/MongoDB.svg" alt="MongoDB-image">
+                    <h6 class="mt-3 mb-2">70%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-2 py-1 rounded-md">
+                        MongoDB
+                    </p>
+                </div>
+
+                <!-- 10th -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2 group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4" src="./images/github-image.svg" alt="github-image">
+                    <h6 class="mt-3 mb-2">74%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-2 py-1 rounded-md">
+                        GitHub
+                    </p>
+                </div>
+
+                <!-- 11th -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2 group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4" src="./images/vsCode-image.svg" alt="vsCode-image">
+                    <h6 class="mt-3 mb-2">92%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-2 py-1 rounded-md">
+                        VsCode
+                    </p>
+                </div>
+
+                <!-- 12th -->
+                <div
+                    class="col-span-6 md:col-span-4 mt-4 lg:mt-5 lg:col-span-2 text-center p-4 lg:p-0 shadow-custom rounded-lg transform transition-transform hover:-translate-y-2 group relative">
+                    <img loading="lazy" class="w-[60%] mx-auto lg:mt-4"
+                        src="https://freelogopng.com/images/all_img/1681038800chatgpt-logo-black.png" alt="ChatGpt-image">
+                    <h6 class="mt-3 mb-2">74%</h6>
+                    <p
+                        class="absolute left-1/2 -translate-x-1/2  bottom-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white bg-gray-800 px-2 py-1 rounded-md">
+                        ChatGpt
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <!-- Skills Section End -->
+
+
+        <!-- Capabilities/Features Section -->
+        <section>
+            <div class="container mx-auto" id="Capabilities">
+                <div class="grid grid-cols-12 gap-6 mt-10 lg:p-12 text-white">
+                    <div class="col-span-12 text-center">
+                        <h5 class="text-5xl">Capabilities</h5>
+                        <h2 class="text-xl mt-3 lg:text-xl text-rose-700">Creating modern, responsive websites that
+                            drive results.</h2>
+                    </div>
+                    <!-- 1st -->
+                    <div class="col-span-12 md:col-span-6 lg:col-span-4 px-3 md:px-0 lg:p-0 lg:mt-7 ">
+                        <div
+                            class="p-8 shadow-custom rounded-lg bg-[rgb(33,36,40)] group transition-transform hover:-translate-y-2">
+                            <i class="fa-brands fa-react text-5xl text-blue-500"></i>
+                            <h2 class="text-2xl mt-3">Frontend Development</h2>
+                            <p class="text-xl mt-3 text-gray-400"> I craft visually stunning and
+                                responsive websites using React, Tailwind CSS, and JavaScript, ensuring smooth user
+                                experience and performance optimization.</p>
+                            <i
+                                class="fa-solid fa-arrow-right mt-3 group-hover:text-blue-500 group-hover:translate-x-1 duration-75 ease-in-out text-xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- 2nd -->
+                    <div class="col-span-12 lg:col-span-4 md:col-span-6 px-3 md:px-0 lg:p-0 lg:mt-7">
+                        <div
+                            class="p-8 shadow-custom rounded-lg bg-[rgb(33,36,40)] group transition-transform hover:-translate-y-2">
+                            <i class="fa-brands fa-node-js text-5xl text-green-500"></i>
+                            <h2 class="text-2xl mt-3">Backend Development</h2>
+                            <p class="text-xl mt-3 text-gray-400"> I build scalable and efficient backend
+                                systems using Node.js, Express, and MongoDB, handling APIs, authentication, and
+                                database
+                                management.</p>
+                            <i
+                                class="fa-solid fa-arrow-right mt-3 hidden group-hover:text-green-500 group-hover:translate-x-1 duration-75 ease-in-out text-xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- 3rd -->
+                    <div class="col-span-12 lg:col-span-4 md:col-span-6 px-3 md:px-0 lg:p-0 lg:mt-7">
+                        <div
+                            class="p-8 shadow-custom rounded-lg bg-[rgb(33,36,40)] group transition-transform hover:-translate-y-2">
+                            <i class="fa-solid fa-layer-group text-teal-500 text-5xl"></i>
+                            <h2 class="text-2xl mt-3">Full-Stack Development</h2>
+                            <p class="text-xl mt-3 text-gray-400"> From crafting engaging UI to managing backend
+                                logic,
+                                I develop complete MERN stack applications with REST APIs, authentication, and
+                                real-time
+                                features..</p>
+                            <i
+                                class="fa-solid fa-arrow-right mt-3 hidden group-hover:text-teal-500  group-hover:translate-x-1 duration-75 ease-in-out text-xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- 4th -->
+                    <div class="col-span-12 lg:col-span-4 md:col-span-6 px-3 md:px-0 lg:p-0">
+                        <div
+                            class="p-8 shadow-custom rounded-lg bg-[rgb(33,36,40)] group transition-transform hover:-translate-y-2">
+                            <i class="fa-solid fa-bug text-orange-500 text-5xl"></i>
+                            <h2 class="text-2xl mt-3">Performance Optimization & Debugging</h2>
+                            <p class="text-xl mt-3 text-gray-400">I enhance website performance, optimize loading
+                                speed,
+                                and debug complex issues to ensure a seamless user experience..</p>
+                            <i
+                                class="fa-solid fa-arrow-right mt-3 hidden group-hover:text-orange-500 group-hover:translate-x-1 duration-75 ease-in-out text-xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- 5th -->
+                    <div class="col-span-12 lg:col-span-4 md:col-span-6 px-3 md:px-0 lg:p-0">
+                        <div
+                            class="p-8 shadow-custom rounded-lg bg-[rgb(33,36,40)] group transition-transform hover:-translate-y-2">
+                            <i class="fa-solid fa-code-branch text-purple-500 text-5xl"></i>
+                            <h2 class="text-2xl mt-3">Version Control & Deployment</h2>
+                            <p class="text-xl mt-3 text-gray-400"> I efficiently manage code using Git & GitHub, and
+                                deploy applications on Vercel, Netlify, and cloud servers for a hassle-free user
+                                experience.</p>
+                            <i
+                                class="fa-solid fa-arrow-right mt-3 hidden group-hover:text-purple-500 group-hover:translate-x-1 duration-75 ease-in-out text-xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- 6th -->
+                    <div class="col-span-12 lg:col-span-4 md:col-span-6 px-3 md:px-0 lg:p-0">
+                        <div
+                            class="p-8 shadow-custom rounded-lg bg-[rgb(33,36,40)] group transition-transform hover:-translate-y-2">
+                            <i class="fa-solid fa-robot text-gray-600 text-5xl"></i>
+                            <h2 class="text-2xl mt-3">AI-Assisted Development</h2>
+                            <p class="text-xl mt-3 text-gray-400">Utilizing advanced AI tools like ChatGPT and
+                                GitHub
+                                Copilot to enhance problem-solving, streamline debugging, and accelerate code
+                                generation
+                                with efficiency.
+                            </p>
+                            <i
+                                class="fa-solid fa-arrow-right mt-3 hidden group-hover:text-gray-600 group-hover:translate-x-1 duration-75 ease-in-out text-xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Expertise Section End -->
+
+
+        <!-- Project Section -->
+        <section id="projects" class="py-16 bg-[rgb(33,36,40)] text-white">
+            <div class="container mx-auto lg:px-32 px-4">
+                <div class="grid grid-cols-12 gap-4 lg:gap-3 justify-center">
+                    <div class="col-span-12 text-center mb-12">
+                        <h2 class="text-5xl">My Projects</h2>
+                        <p class="text-rose-400 text-xl mt-3">From idea to reality – projects that make an impact.</p>
+                    </div>
+
+                    <!-- Projects Grid -->
+                    <!-- Project 1 -->
+                    <div class="col-span-12 lg:col-span-4 md:col-span-6">
+                        <div
+                            class="relative bg-gray-800 rounded-lg shadow-lg overflow-hidden group h-[450px] max-w-sm w-full">
+                            <img loading="lazy" class="w-full h-full object-cover drop-shadow-lg"
+                                src="./images/Restaurant-website.png" alt="Restaurant Website">
+                            <div
+                                class="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center text-center p-4 transition-all duration-300">
+                                <h3 class="text-2xl font-semibold text-white mb-2">Restaurant Website</h3>
+                                <p class="text-gray-300 mb-4">A modern and responsive restaurant website.</p>
+                                <div class="flex gap-4">
+                                    <a href="https://indian-delecious-restaurant.vercel.app/" target="_blank"
+                                        class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">Live
+                                        Demo</a>
+                                    <a href="https://github.com/Deepak-thakur-321/Delicious-Restaurant" target="_blank"
+                                        class="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="col-span-12 lg:col-span-4 md:col-span-6 mt-4 md:mt-0 lg:mt-0">
+                        <div
+                            class="relative bg-gray-800 rounded-lg shadow-lg overflow-hidden group h-[450px] max-w-sm w-full">
+                            <img loading="lazy" class="w-full h-full object-cover"
+                                src="./images/Agenci-website-banner.png" alt="Agenci Website">
+                            <div
+                                class="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center text-center p-4 transition-all duration-300">
+                                <h3 class="text-2xl font-semibold text-white mb-2">Agenci Website</h3>
+                                <p class="text-gray-300 mb-4">Modern Agenci site with a clean, user-friendly design.
+                                </p>
+                                <div class="flex gap-4">
+                                    <a href="https://agenci-website-nu.vercel.app/" target="_blank"
+                                        class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">Live
+                                        Demo</a>
+                                    <a href="https://github.com/Deepak-thakur-321/Agenci-Website" target="_blank"
+                                        class="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="col-span-12 lg:col-span-4 md:col-span-6 mt-4 lg:mt-0">
+                        <div
+                            class="relative bg-gray-800 rounded-lg shadow-lg overflow-hidden group h-[450px] max-w-sm w-full">
+                            <!-- <img loading="lazy" class="w-full h-full object-cover" src=""
+                                alt=""> -->
+                            <div
+                                class="absolute inset-0 bg-black bg-opacity-70 opacity-100 flex flex-col items-center justify-center text-center p-4 transition-all duration-300">
+                                <h3 class="text-2xl font-semibold text-white mb-2">Project 3</h3>
+                                <p class="text-gray-300 mb-4">Coming Soon</p>
+                                <div class="flex gap-4">
+                                    <a href="#" target="_blank"
+                                        class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">Live
+                                        Demo</a>
+                                    <a href="https://github.com" target="_blank"
+                                        class="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project section end -->
+
+        <!-- Form -->
+        <section>
+            <div class="container w-full px-4" id="contact">
+                <div class="grid grid-cols-12 gap-4 text-white">
+                    <div class="col-span-12 text-center">
+                        <h2 class="text-5xl lg:mt-12 md:mt-10">Contact With Me</h2>
+                        <p class="text-rose-700 mt-3 text-xl">Your next big project starts with a conversation. Let’s
+                            talk!</p>
+                    </div>
+
+                    <!-- Form Section -->
+
+                    <div
+                        class="col-span-12 mt-3 lg:mt-5 lg:col-span-6 px-6 py-6 shadow-custom rounded-lg  bg-[rgb(33,36,40)] ">
+                        <form action="" class="flex flex-col gap-4 p-4">
+
+                            <input id="name"
+                                class=" shadow-custom bg-[rgb(33,36,40)] text-white px-4 py-2 rounded-md placeholder-gray-400"
+                                type="text" placeholder="Your Name">
+
+                            <input id="email"
+                                class=" shadow-custom  bg-[rgb(33,36,40)] text-white px-4 py-2 rounded-md placeholder-gray-400"
+                                type="email" placeholder="Your Email">
+
+                            <input id="phone"
+                                class=" shadow-custom bg-[rgb(33,36,40)] text-white px-4 py-2 rounded-md placeholder-gray-400"
+                                type="number" placeholder="Phone Number">
+
+                            <input id="subject"
+                                class=" shadow-custom  bg-[rgb(33,36,40)] text-white px-4 py-2 rounded-md placeholder-gray-400"
+                                type="text" placeholder="Subject">
+
+                            <textarea id="message" name=""
+                                class="shadow-custom bg-[rgb(33,36,40)] text-white px-4 py-2 rounded-md placeholder-gray-400"
+                                rows="6" cols="12" placeholder="Message"></textarea>
+
+                            <input class="shadow-custom bg-[rgb(33,36,40)] text-rose-700 text-lg  px-4 py-3 rounded-md "
+                                type="submit" value="SEND MESSAGE">
+                        </form>
+                    </div>
+
+                    <div class="col-span-12 mt-5 lg:col-span-6 px-3 py-5 shadow-custom rounded-lg bg-[rgb(33,36,40)]">
+                        <div class="p-5 flex flex-col justify-center">
+                            <p class="text-3xl lg:text-4xl text-gray-100 leading-snug">
+                                Let’s Build Something Great <br> Together! 🚀
+                            </p>
+                            <p class="text-lg text-gray-400 mt-4">
+                                I’m open to new opportunities. Whether you have a project, idea, or just want to say hi,
+                                feel free to reach out anytime!
+                            </p>
+
+                            <div class="mt-10 space-y-4 text-gray-300">
+                                <h2 class="text-xl lg:text-2xl font-medium">
+                                    📞 Phone: <span class="text-rose-500">8375919101</span>
+                                </h2>
+                                <h3 class="text-xl lg:text-2xl font-medium">
+                                    📧 Email: <span class="text-rose-500">deepakthakur17756@gmail.com</span>
+                                </h3>
+                                <h2 class="text-xl lg:text-2xl font-medium">
+                                    📍 Location: <span class="text-rose-500">Najafgarh, New Delhi-110043</span>
+                                </h2>
+                            </div>
+                        </div>
+
+                        <!-- Social Icons -->
+                        <div class="flex justify-center lg:justify-start space-x-4 mt-8">
+                            <a href="https://www.instagram.com/accounts/login/?hl=en"
+                                class="transform transition-all hover:scale-110" target="_blank">
+                                <i
+                                    class="fa-brands fa-instagram p-4 text-4xl text-rose-500 shadow-custom rounded-lg bg-[rgb(33,36,40)]"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/i-am-deepak-thakur/"
+                                class="transform transition-all hover:scale-110" target="_blank">
+                                <i
+                                    class="fa-brands fa-linkedin p-4 text-4xl text-blue-500 shadow-custom rounded-lg bg-[rgb(33,36,40)]"></i>
+                            </a>
+                            <a href=""
+                                class="transform transition-all hover:scale-110" target="_blank">
+                                <i
+                                    class="fa-brands fa-github p-4 text-4xl text-gray-400 shadow-custom rounded-lg bg-[rgb(33,36,40)]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- From Section End -->
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="grid grid-cols-12 gap-6">
+                <div class="col-span-12 shadow-custom rounded-lg bg-[rgb(25,27,30)] mt-5">
+                    <img loading="lazy" src="./images/logo-new.png" alt="" class="w-[7%] mx-auto mt-4">
+
+                    <div class="text-center py-6">
+                        <ul class="flex mx-auto gap-8 items-center justify-center text-lg font-medium text-gray-300">
+                            <a href="#skills" class="transition-all duration-300 hover:text-rose-500">
+                                <li class="cursor-pointer hover:scale-105">Skills</li>
+                            </a>
+                            <a href="#Capabilities" class="transition-all duration-300 hover:text-rose-500">
+                                <li class="cursor-pointer hover:scale-105">Services</li>
+                            </a>
+                            <a href="#education" class="transition-all duration-300 hover:text-rose-500">
+                                <li class="cursor-pointer hover:scale-105">Education</li>
+                            </a>
+                            <a href="#contact" class="transition-all duration-300 hover:text-rose-500">
+                                <li class="cursor-pointer hover:scale-105">Contact</li>
+                            </a>
+                        </ul>
+
+                        <div class="border-b border-gray-600 w-[80%] mx-auto mt-4"></div>
+
+                        <h3 class="mt-4 text-gray-500 text-sm">
+                            © 2024 <span class="text-rose-500 font-semibold">CodingByDeepak</span>. All rights reserved.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+        integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.jsx"></script>
+</body>
+
+</html>
